@@ -1,0 +1,169 @@
+@media screen and (max-width: 1140px){
+    .second-content{
+        padding: 15px 10px;
+    }
+
+    .about-content{
+        flex-direction: column;
+        padding-top: 0px;
+        padding-left: 20px;
+    }
+
+    .about-content h2{
+        width: 100%;
+    }
+
+    .about-content p{
+        width: 100%;
+    }
+
+    .customer-services{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .my-services{
+        padding: 5px 100px;
+    }
+
+    .main-services{
+        padding: 10px 10px;
+    }
+    
+    .main-services div{
+        padding: 10px;
+        margin: 5px;
+    }
+    .img-logo{
+        width: 100%;
+    }
+    .about-my p{
+        padding-top: 10px;
+    }
+    .social-list{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 690px){
+    .about-content p{
+        margin-top: 10px;
+    }
+    .second-content{
+        padding: 0px 10px;
+    }
+    .about-me P{
+        width: 65%;
+    }
+    .last-heading{
+        padding: 30px 65px;
+        padding-bottom: 0px;
+    }
+    .about-my p{
+        padding-top: 10px;
+    }
+    .right-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding-right: 30px;
+        padding-top: 20px 
+    }
+    .header-container{
+        transition: all 0.7s ease-out;
+        height: 215px;
+    }
+    .burger{
+        display: block;
+    }
+    .h-class-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .left-container{
+        margin: 20px 20px;
+    }
+    .heading{
+        padding: 40px 20px 10px 10px
+    }
+    .heading h1{
+        font-size: 35px;
+    }
+    .paragraph{
+        padding-top: 0px;
+        padding-left: 20px;
+        width: 80%;
+    }
+    .img-logo{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .second-content{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 10px;
+    }
+    .about-content{
+        width: 95%;
+    }
+    .about-me p{
+        width: 100%;
+        padding-top: 10px;
+        font-size: 17px;
+    }
+    .my-services{
+        padding: 0px 15px;
+    }
+    .main-services{
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+    .my-form{
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-contact{
+        margin-top: 0px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .my-image{
+        height: 325px;
+    }
+    .last-heading{
+        padding: 20px 20px;
+        padding-right: 0px;
+    }
+    .second-last{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-my{
+        width: 95%;
+    }
+    .about-my p{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .link{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .link li{
+        padding-bottom: 15px;
+    }
+    .social-list{
+        width: 60%;
+    }
+    .links-for{
+        padding-left: 40px;
+    }
+}

@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url(../img/black.jpg); 
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.header-container{
+    color:  rgb(212, 211, 211);
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(22, 22, 22);
+}
+
+.left-container{
+    margin: 20px 70px;
+    width: 50%;
+    font-size: 15px;
+}
+
+.left-container span{
+    color: aqua;
+    font-style: italic;
+}
+
+.right-container{
+    width: 50%;
+    font-size: 12px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-container li{
+    list-style: none;
+    padding-top: 28px;
+    padding-right: 10px;
+}
+
+.list a{
+    text-decoration: none;
+    color:  white
+}
+
+.li-link::after{
+    content: " ";
+    display: flex;
+    background-color: green;
+    width: 0px;
+    height: 2px;
+    transition: width 0.5s ease;
+}
+
+.li-link:hover::after{
+    width: 70%;
+}
+
+.heading{
+    font-size: 40px;    
+    color: white;
+    padding: 40px 80px 0px;
+}
+
+.heading span{
+    font-style: oblique;
+    color: aqua;
+    font-weight: 100;
+}
+
+.paragraph{
+    padding-top: 20px;
+    padding-left: 75px;
+    color:  rgb(212, 211, 211);
+    display: flex;
+    width: 40%;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img-logo{
+    display: flex;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-bottom: 35px;
+}
+
+.img-logo img{
+    border-radius: 50%;
+    background-color: white;
+    margin: 5px 5px 0px 5px;
+}
+
+.second-heading{
+    color:  rgb(212, 211, 211);
+    border-radius: 20px 20px 20px 20px;
+    padding: 15px 25px;
+    border: 3px solid rgb(212, 211, 211);
+    font-size: 10px;
+}
+
+.second-heading:hover{
+    color: black;
+    background-color:  rgb(212, 211, 211);;
+    cursor: pointer;
+    transition-duration: 700ms;
+}
+
+.img-logo img:hover{
+    background-color:  rgb(167, 164, 164);
+    cursor: pointer;
+    transition-duration: 700ms;
+}
+
+.facebook{
+    margin-left: 35px;
+}
+
+.second-content{
+    background-color: rgb(68, 67, 67);
+    display: flex;
+    justify-items: center;
+    padding: 35px 120px;
+}
+
+.about-content{
+    padding-left: 100px;
+    padding-top: 20px;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+.para{
+    font-size: 13px;
+    color:  rgb(212, 211, 211);
+    padding-left: 20px;
+}
+
+.about-content h2{
+    font-size: 35px;
+    width: 50%;
+}
+
+.about-content p{
+    width: 50%;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.about-content p span{
+    color: rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-me{
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.about-me h2{
+    color:  rgb(212, 211, 211);
+    border: 3px solid gray;
+    padding: 5px 10px;
+}
+
+.about-me p{
+    width: 55%;
+    color: white;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.my-services{
+    padding: 30px 100px;
+}
+
+.what-do{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.what-do::after{
+    content: " ";
+    background-color: black;
+    display: flex;
+    width: 12%;
+    height: 2px;
+    margin: 30px 0px;
+}
+
+.customer-services{
+    width: 60%;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-services{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 100px;
+}
+
+.main-services div{
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 8px;
+    padding-bottom: 40px;
+}
+
+.main-services div p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-services img{
+    padding-bottom: 40px;
+}
+
+.main-services div:hover{
+    box-shadow: 2px 2px 10px 0px;
+    transition-duration: 500ms;
+}
+
+.contact-me h2{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.for-contact::after{
+    content: " ";
+    background-color: black;
+    display: flex;
+    width: 13%;
+    height: 2px;
+    margin: auto;
+    margin-top:  20px;
+}
+
+.my-form{
+    display: flex;
+    justify-content: center;
+}
+
+.form-contact{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 65px;
+}
+
+.form-contact input{
+    padding: 10px 10px;
+    width: 70%;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.form-contact textarea{
+    padding: 10px 10px;
+    width: 70%;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.btn-sub{
+    padding: 8px 30px;
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-sub:hover{
+    cursor: pointer;
+    background-color:  rgb(212, 211, 211);;
+    color: black;
+    transition-duration: 700ms;
+}
+
+.last-heading{
+    color: white;
+    background-color: black;
+    padding: 50px 100px;
+    padding-bottom: 0px;
+}
+
+.second-last{
+    display: flex;
+    max-width: 120%;
+}
+
+.about-my{
+    width: 30%;
+}
+
+.about-my p{
+    padding-top: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.quick-list{
+    width: 60%;
+    text-align: center;
+}
+
+.link{
+    padding-top: 35px;
+}
+
+.link li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+.link a{
+    text-decoration: none;
+    color:  rgb(212, 211, 211);
+}
+
+.social-list{
+    width: 30%;
+    text-align: center;
+}
+
+.links-for img{
+    background-color: white;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.last-footer{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:  rgb(212, 211, 211);
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 18px;
+}
+
+.line{
+    width: 33%;
+    background-color: white;
+    height: 4px;
+    margin: 3px 40px;
+}
